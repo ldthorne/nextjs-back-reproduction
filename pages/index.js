@@ -1,11 +1,9 @@
-import Link from 'next/link'
-
 const Page = () => (
   <div>
     <p>Welcome to next.js!</p>
-    <Link href="#test-link">
-      <a>go somewhere</a>
-    </Link>
+    <a href="#test-link">
+      go somewhere
+    </a>
     <div style={{height: '500px', width: '100%'}} />
     <div style={{height: '500px', width: '100%'}} />
     <div style={{height: '500px', width: '100%'}} />
